@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    content: inherit;
+}
+
+#titulo{
+    background-color: aqua;
+    padding: 5px;
+}
