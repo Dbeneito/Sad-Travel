@@ -1,11 +1,73 @@
 *{
     margin: 0;
     padding: 0;
-    text-align: center;
-    content: inherit;
+    background-color: rgb(232, 232, 232);
+    font-family: sans-serif;
+    font-weight: 400;
+
 }
 
-#titulo{
-    background-color: aqua;
-    padding: 5px;
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 15px 0;
+}
+
+.navbar .imagen-logo{
+    width: 50%
+}
+
+.logo{
+    max-width:100%;
+}
+
+.navbar .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    width: 50%;
+}
+
+.navLinks{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks li{
+    display: inline;
+}
+
+.navLinks a{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+
+.navLinks a:hover{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(229, 255, 30);
+}
+
+
+.buttons button{ 
+    padding: 10px 20px;
+    background-color: rgb(229, 255, 30);
+    border:none;
+    border-radius: 25px;
+    font-weight: 700;
+    margin: 0px 5px;
+    text-transform: uppercase;
+}
+
+.buttons .login{
+    margin: 0px 7px 0px 70px;
+}
+
+button:hover{
+    color:  rgb(229, 255, 30);
+    background-color: black;
 }
