@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: #e8e8e8;
 }
 
 body, html {
@@ -29,7 +30,6 @@ body, html {
 }
 
 .derecha {
-    background-color: #e8e8e8;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,8 @@ body, html {
     flex-wrap: wrap;
 }
 
+a{text-decoration: none;}
+
 .navLinks {
     list-style: none;
     display: flex;
@@ -59,12 +61,9 @@ body, html {
 
 .navLinks a:hover {
     color: #e5ff1e;
+    transition: all 0.3s ease;
 }
 
-.buttons {
-    display: flex;
-    gap: 20px;
-}
 
 button {
     padding: 10px 20px;
@@ -74,12 +73,14 @@ button {
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
-    transition: all 0.3s ease;
+    display: flex;
+    gap: 20px;
 }
 
 button:hover {
     background-color: black;
     color: #e5ff1e;
+    transition: all 0.3s ease;
 }
 
 .slogan h2 {
@@ -89,6 +90,88 @@ button:hover {
     justify-content: left;
 }
 
-footer {
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-size: cover;
+    background-color: #e5ff1e;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #e5ff1e;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #e5ff1e;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #343434;
+    font-size: 18px;
+    background-color: #e5ff1e;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #393939;
+    font-weight: 700;
+    background-color: #e5ff1e;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #393939;
+    font-weight: 600;
+    background-color: #e5ff1e;
+}
+
+.box__footer p{
+    background-color: #e5ff1e;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+    background-color: #e5ff1e;
+}
+
+.box__copyright{
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    background-color: #e5ff1e;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #393939;
+    background-color: #e5ff1e;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+    background-color: #e5ff1e;
+}
+
+.box__copyright b{ 
     background-color: #e5ff1e;
 }
