@@ -139,19 +139,78 @@ button:hover {
     transition: all 0.3s ease;
 }
 
-.form-register {
+.special {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 900px;
+    margin-bottom: 60px;
+    color: white;
+    text-align: center;
+  }
+  
+  .box_special {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .special {
+    background: #ffcc00cc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #1a1a1a;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .special img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .special h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  
+  .special p {
+    font-size: 16px;
+  }
+
+.form-support {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+  .box_support {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background: black;
-    padding: 30px;
+    padding: 50px;
     margin: auto;
     margin-top: 100px;
     color: #e5ff1e;
   }
   
-  .form-register h4 {
-    font-size: 22px;
+  .form-support h4 {
+    font-size: 40px;
     margin-bottom: 20px;
     background: black;
     text-transform: uppercase;
+    text-align: start;
   }
   
   .controls {
@@ -168,23 +227,34 @@ button:hover {
     flex-direction: column;
   }
   
-  .form-register p {
+  .form-support p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
   }
   
-  .form-register .botons {
-    width: 100%;
-    background: #e5ff1e;
+  .form-support button {
+    padding: 10px 20px;
+    background-color: #e5ff1e;
     border: none;
-    padding: 12px;
-    color: black;
-    margin: 16px 0;
-    font-size: 16px;
-    text-transform: uppercase;
-  }
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+}
+
+.form-support a {
+    background-color: black;
+}
+
+  .form-support button:hover {
+    background-color: black;
+    color: #e5ff1e;
+    border: #e5ff1e solid 2px;
+    transition: all 0.3s ease;
+}
 
 footer{
     width: 100%;
