@@ -1,7 +1,7 @@
 🌴 Happy Travel 🌴 
 Happy Travel is a web platform designed for travel enthusiasts who want to explore the world at their own pace. Through interactive travel routes, recommendations, and an active community, this website aims to redefine the travel experience.
 
-![Uploading screencapture-file-Users-davidbeneito-Desktop-WEB-2-index-html-2025-05-20-21_48_33.png…]()
+[![screencapture-file-Users-davidbeneito-Desktop-WEB-2-index-html-2025-05-20-21-48-33.png](https://i.postimg.cc/zf8M1x6H/screencapture-file-Users-davidbeneito-Desktop-WEB-2-index-html-2025-05-20-21-48-33.png)](https://postimg.cc/RWpG7LMv)
 
 
 🖥️ Project Purpose 🖥️
