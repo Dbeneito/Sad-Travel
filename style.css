@@ -226,6 +226,7 @@ button:hover {
     background: black;
     text-transform: uppercase;
     text-align: start;
+    margin-left: 90px;
   }
   
   .controls {
@@ -240,6 +241,7 @@ button:hover {
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+    margin-left: 90px;
   }
   
   .form-support p {
@@ -247,6 +249,7 @@ button:hover {
     text-align: center;
     font-size: 18px;
     line-height: 40px;
+    margin-left: 90px;
   }
   
   .form-support button {
@@ -258,6 +261,7 @@ button:hover {
     cursor: pointer;
     display: flex;
     font-size: 20px;
+    margin-left: 90px;
 }
 
 .form-support a {
@@ -282,7 +286,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1500px;
+    max-width: 1600px;
     margin: auto;
     margin-top: 25px;
     background-color: #e5ff1e;
