@@ -1,6 +1,9 @@
 🌴 Happy Travel 🌴 
 Happy Travel is a web platform designed for travel enthusiasts who want to explore the world at their own pace. Through interactive travel routes, recommendations, and an active community, this website aims to redefine the travel experience.
 
+![Uploading screencapture-file-Users-davidbeneito-Desktop-WEB-2-index-html-2025-05-20-21_48_33.png…]()
+
+
 🖥️ Project Purpose 🖥️
 The goal of this project is to showcase a visually appealing and functional interface that reflects the core values of Happy Travel. Key focuses include:
 
@@ -58,3 +61,5 @@ This project was created for educational purposes and does not represent a comme
 David Beneito Pastor
 Graphic designer and web developer in training
 Instagram – Glax Studio
+
+https://sad-travel-vznz.vercel.app/
