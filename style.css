@@ -126,7 +126,7 @@ button:hover {
     padding: 15px 20px;
     background-color: #e5ff1e;
     border: none;
-    border-radius: 25px;
+    border-radius: 35px;
     font-weight: 700;
     cursor: pointer;
     display: flex;
@@ -140,53 +140,68 @@ button:hover {
 }
 
 .special {
-    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    width: 80%;
-    max-width: 900px;
+    width: 100%;
     margin-bottom: 60px;
-    color: white;
-    text-align: center;
+    text-align: left;
+    align-items: center;
   }
   
   .box_special {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
   }
   
-  .special {
-    background: #ffcc00cc;
+  .box_pack {
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    color: #1a1a1a;
-    width: 250px;
+    width: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    text-align: left;
   }
   
-  .special img {
-    width: 200px;
-    height: 150px;
+  .box_pack img {
+    width: 400px;
+    height: 250px;
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
   }
   
-  .special h3 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
+  .box_pack h3 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    max-width: 400px;
+    background-color: #e5ff1e;
+    padding: 2%;
+    border-bottom: black 1px dashed;
   }
   
-  .special p {
+  .box_pack p {
     font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+    max-width: 400px;
+    background-color: #e5ff1e;
+    padding: 2%;
   }
+
+  .box_pack h3:hover {
+    background-color: black;
+    color: #e5ff1e;
+    border-bottom: #e5ff1e 1px dashed;
+    transition: all 0.3s ease;
+  }
+
+  .box_pack p:hover {
+    background-color: black;
+    color: #e5ff1e;
+
+    transition: all 0.3s ease;
+  }
+
 
 .form-support {
     align-items: center;
@@ -341,4 +356,42 @@ footer{
 
 .box_copyright b{ 
     background-color: #e5ff1e;
+}
+
+.eres_especial{
+    background-color: #e5ff1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo_especial{
+    color: black;
+    background-color: #e5ff1e;
+    text-transform: uppercase;
+}
+
+.eres_especial a{
+    justify-content: center;
+    display: flex;
+    background-color: #e5ff1e;
+    
+}
+
+.eres_especial button {
+    padding: 15px 20px;
+    margin: 25px;
+    background-color: black;
+    color: #e5ff1e;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.eres_especial button:hover {
+    background-color: #e5ff1e;
+    color: black;
+    border: solid 4px black;
+    transition: all 0.3s ease;
 }
